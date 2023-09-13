@@ -52,3 +52,4 @@ add_action( 'wp_enqueue_scripts', 'gym_enqueue_scripts' );
 require_once plugin_dir_path( __FILE__ ) . 'shortcode/trainer-dashboard.php';
 require_once plugin_dir_path( __FILE__ ) . 'shortcode/new-exercise.php';
 require_once plugin_dir_path( __FILE__ ) . 'controllers/insert-exercise-in-post-type.php';
+require_once plugin_dir_path( __FILE__ ) . 'controllers/add-loop-item-in-post-type.php';
